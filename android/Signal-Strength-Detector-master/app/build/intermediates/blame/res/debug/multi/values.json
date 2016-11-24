@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 52,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 41,
+                    "endOffset": 145
+                },
+                "from": {
+                    "file": "/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 41,
+                        "endOffset": 297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 150,
+                    "endColumn": 92,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 92,
+                        "endOffset": 196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 243,
+                    "endColumn": 58,
+                    "endOffset": 297
+                },
+                "from": {
+                    "file": "/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 201,
+                        "endColumn": 58,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 302,
+                    "endColumn": 41,
+                    "endOffset": 339
+                },
+                "from": {
+                    "file": "/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 302,
+                        "endColumn": 41,
+                        "endOffset": 339
+                    }
+                }
+            }
+        ]
+    }
+]

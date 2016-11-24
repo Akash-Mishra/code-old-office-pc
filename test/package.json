@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.8.8",
+    "mongoose": "^4.5.8",
+    "passport": "^0.3.2"
+  }
+}

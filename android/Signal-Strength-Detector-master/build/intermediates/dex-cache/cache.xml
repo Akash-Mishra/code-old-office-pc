@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="222cccde6ed8ab1a55335cb8a990d0ff87014aa4">
+        <dex dex="/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2cbaadd0d8706f9c47fad496c681d6de6f605284/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5725907ef36f42ba31765431ec0cd7a358e78fc">
+        <dex dex="/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e58efb10c3232af1d2e321a437578ed98adda650/classes.dex" />
+    </item>
+
+</items>

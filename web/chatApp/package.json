@@ -1,0 +1,40 @@
+{
+  "name": "mean-chatapp",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./app/public/index.html",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-material": "^1.1.1",
+    "angular-material-icons": "^0.7.1",
+    "angular-socket-io": "^0.7.0",
+    "animate": "^1.0.0",
+    "animate.css": "^3.5.2",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "express": "^4.x.x",
+    "mongoose": "^4.6.0",
+    "morgan": "^1.7.0",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-shell": "^0.2.9",
+    "node-webkit-builder": "^1.0.8"
+  },
+  "window": {
+    "title": "mean-chatapp",
+    "toolbar": false,
+    "frame": true,
+    "position": "center",
+    "fullscreen": false,
+    "resizable": false,
+    "width": 1000,
+    "height": 600,
+    "min_width": 600,
+    "min_height": 400
+  },
+  "node-remote": "http://<local>"
+}

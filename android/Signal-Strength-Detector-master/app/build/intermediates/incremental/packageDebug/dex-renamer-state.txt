@@ -1,0 +1,4 @@
+#Thu Nov 17 12:33:39 IST 2016
+base.0=/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/akash.mishra/Music/learn/android/Signal-Strength-Detector-master/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
