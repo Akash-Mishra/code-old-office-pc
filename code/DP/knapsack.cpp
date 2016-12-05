@@ -1,55 +1,33 @@
+
 #include <iostream>
 #include <algorithm>
+#include <limits.h>
 using namespace std;
-int max(int a, int b) { return (a > b) ? a : b; }
-// function has value array and weight array along with the size of array and Max weight as input
-// output is the max value that can be obtained 
-void knapsack(int val[], int size, int wt[], int W){
-	int dp[size];
-	fill_n(dp, size, -100);
-	dp[0] = 0;
-	for(int p = 1; p < size; p++){
-		for (int w = W; w > 0; w++)
-		{
-			/* code */
-			if (w >= wt[p])
+int knap(int val[], int size, int Sum){
+	int minRes[100];
+	fill_n(minRes, 100, INT_MIN);
+	minRes[0] = 0;
+
+	for(int i = 1; i < Sum; i++){
+		for(int j = 0; j < size; j++){
+			if (val[j] <= i && (minRes[i - val[j]] + 1 < minRes[i]))
 			{
 				/* code */
-				dp[w] = max(dp[w], dp[w-wt[p]] + val[p]);
+				minRes[i] = minRes[i - val[j]] + 1;
 			}
 		}
 	}
-	for(int i = 0; i < size; i++)
-		cout<<dp[i]<<"  ";
+	
+	return minRes[Sum];
 }
 
-// main function
-int main() {
-	int value[10];
-	int weight[10];
-	int sizeOfArray = 0;
-	int num;
-	int maxWeight;
-	cin>>sizeOfArray;
-	fill_n(value, sizeOfArray, -10);
-	fill_n(weight, sizeOfArray, -10);
+// for(int i = 0; i < 100; i++){
+// 		cout<<minRes[i]<<endl;
+// 	}
 
-	int test = sizeOfArray;
-	int i = 0;
-	while(i < sizeOfArray){
-		cin>>value[i]; // = num;
-		i++;
-	}
-
-	i = 0;
-	while( i < sizeOfArray){
-		cin>>weight[i];
-		i++;
-	}
-	cin>>maxWeight;
-
-	knapsack(value, sizeOfArray, weight, maxWeight);
-	// cout<<result<<endl;
-
-	return 0;
+int main(){
+	int val[] = {1, 3, 5};
+	int size = 3;
+	int sum = 100;
+	cout<<knap(val, size, sum);
 }
